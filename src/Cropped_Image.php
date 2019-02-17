@@ -14,7 +14,7 @@ namespace Kirki\Control;
 /**
  * Adds the image control.
  */
-class Cropped_Image extends WP_Customize_Cropped_Image_Control {
+class Cropped_Image extends \WP_Customize_Cropped_Image_Control {
 
 	/**
 	 * Whitelisting the "required" argument.
